@@ -19,29 +19,29 @@ Date of finished: 30.09.2025
 Создала новый репозиторий, нажала «NEW»
 ￼
 Создаю файлы через «ADD file»
-![alt text](ADD.png)
+![alt text](screenshots/ADD.png)
 
-![alt text](sc.png)
+![alt text](screenshots/sc.png)
 
 Создала новую ветку
 
-![alt text](branch.png)
+![alt text](screenshots/branch.png)
 
 Создала  файл CONTRIBUTING.md с правилами участия в проекте и сделайте коммит с сообщением "Initial project setup" и отправьте изменения в удаленный репозиторий.
 
-![alt text](file.png)
+![alt text](screenshots/file.png)
 
 Нажала «PULL requests» из ветки develop
 
-![alt text](pull_request.png)
+![alt text](screenshots/pull_request.png)
 
 ￼создала pull request
 
 Смержила во вкладке Pull Request
 ￼
-![alt text](CONTRIBUTING.png)
+![alt text](screenshots/CONTRIBUTING.png)
 
 Удалила ветку
 
-![alt text](main.png)
+![alt text](screenshots/main.png)
 
