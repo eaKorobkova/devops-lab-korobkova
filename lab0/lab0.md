@@ -33,7 +33,7 @@ Date of finished: 30.09.2025
 
 Нажала «PULL requests» из ветки develop
 
-![alt text](pull_requests.png)
+![alt text](pull_request.png)
 
 ￼создала pull request
 
