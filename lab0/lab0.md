@@ -19,7 +19,7 @@ Date of finished: 30.09.2025
 Создала новый репозиторий, нажала «NEW»
 ￼
 Создаю файлы через «ADD file»
-![alt text](devops-lab-korobkova/lab0/Снимок экрана 2025-09-29 в 22.49.40.png)
+![alt text](ADD.png)
 
 Создала новую ветку
 
