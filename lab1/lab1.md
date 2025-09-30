@@ -1,12 +1,18 @@
 Обычная лабораторная работа
 
-Изучение основ Docker:
+##Изучение основ Docker:
 
-Установка Docker:
-Установить Docker Desktop (для Windows/Mac) или Docker Engine (для Linux)
-Проверить установку командой docker --version
-Запустить тестовый контейнер: docker run hello-world
+1. УстановилаDocker Desktop
+Проверила установку командой docker --version
+
+![alt text](version.png)
+Запустила тестовый контейнер: docker run hello-world
+
+![alt text](hello-world.png)
+
 Изучить базовые команды: docker images, docker ps, docker ps -a
+
+![alt text](команды.png)
 
 Работа с готовыми образами:
 
