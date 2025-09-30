@@ -1,8 +1,8 @@
 Обычная лабораторная работа
 
-##Изучение основ Docker:
+**Установка Docker**
 
-1. УстановилаDocker Desktop
+1. Установила Docker Desktop
 Проверила установку командой docker --version
 
 ![alt text](version.png)
@@ -14,11 +14,14 @@
 
 ![alt text](команды.png)
 
-Работа с готовыми образами:
+**2. Работа с готовыми образами**
 
 Скачать образ Ubuntu: docker pull ubuntu:latest
-Запустить интерактивный контейнер: docker run -it ubuntu bash
-Внутри контейнера установить пакет (например, curl): apt update && apt install -y curl
+
+![alt text](docker_pull_ubuntu_latest.png)
+
+Запустила интерактивный контейнер: docker run -it ubuntu bash и установила пакет (например, curl): apt update && apt install -y curl
+
 Проверить установку: curl --version
 Выйти из контейнера: exit
 
