@@ -40,7 +40,7 @@
 
 3.2. Проверить работу в браузере: http://localhost:8080
 
-![alt text](сайт.png) 
+![alt text](сайт.png)
 
 3.3. Посмотрела логи контейнера: docker logs web-server
 
