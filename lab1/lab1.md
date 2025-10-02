@@ -2,30 +2,33 @@
 
 **Установка Docker**
 
-1. Установила Docker Desktop
-Проверила установку командой docker --version
+1.1. Установила Docker Desktop
+   
+1.2. Проверила установку командой docker --version
 
 ![alt text](version.png)
-Запустила тестовый контейнер: docker run hello-world
+
+1.3. Запустила тестовый контейнер: docker run hello-world
 
 ![alt text](hello-world.png)
 
-Изучить базовые команды: docker images, docker ps, docker ps -a
+1.4. Изучить базовые команды: docker images, docker ps, docker ps -a
 
 ![alt text](команды.png)
 
 **2. Работа с готовыми образами**
 
-Скачать образ Ubuntu: docker pull ubuntu:latest
+2.1. Скачала образ Ubuntu: docker pull ubuntu:latest
 
 ![alt text](docker_pull_ubuntu_latest.png)
 
-Запустила интерактивный контейнер: docker run -it ubuntu bash и установила пакет (например, curl): apt update && apt install -y curl
+2.2. Запустила интерактивный контейнер: docker run -it ubuntu bash и установила пакет curl: apt update && apt install -y curl
 
-Проверить установку: curl --version
-Выйти из контейнера: exit
+2.3. Проверила установку: curl --version
 
-Запуск веб-сервера:
+2.4. Вышла из контейнера: exit
+
+**3. Запуск веб-сервера**
 
 Запустить контейнер с nginx: docker run -d -p 8080:80 --name web-server nginx:alpine
 Проверить работу в браузере: http://localhost:8080
