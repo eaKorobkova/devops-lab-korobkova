@@ -34,12 +34,23 @@
 
 **3. Запуск веб-сервера**
 
-Запустить контейнер с nginx: docker run -d -p 8080:80 --name web-server nginx:alpine
-Проверить работу в браузере: http://localhost:8080
-Посмотреть логи контейнера: docker logs web-server
-Подключиться к контейнеру: docker exec -it web-server sh
+3.1. Запустила контейнер с nginx: docker run -d -p 8080:80 --name web-server nginx:alpine
 
-Управление контейнерами:
+
+
+3.2. Проверить работу в браузере: http://localhost:8080
+
+![alt text](сайт.png) 
+
+3.3. Посмотрела логи контейнера: docker logs web-server
+
+![alt text](logs.png) 
+
+3.4. Подключилась к контейнеру: docker exec -it web-server sh
+
+![alt text](docker_exec.png)
+
+**4. Управление контейнерами**
 
 Посмотреть запущенные контейнеры: docker ps
 Посмотреть все контейнеры: docker ps -a
