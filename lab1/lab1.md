@@ -36,11 +36,11 @@
 
 3.1. Запустила контейнер с nginx: docker run -d -p 8080:80 --name web-server nginx:alpine
 
-
+![alt text](3.png)
 
 3.2. Проверить работу в браузере: http://localhost:8080
 
-![alt text](сайт.png)
+![alt text](4.png)
 
 3.3. Посмотрела логи контейнера: docker logs web-server
 
