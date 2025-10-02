@@ -24,7 +24,7 @@
 
 2.2. Запустила интерактивный контейнер: docker run -it ubuntu bash и установила пакет curl: apt update && apt install -y curl
 
-![alt text](apt_update.png) 
+![alt text](Запуск_контейнера_усановка пакета.png) 
 
 2.3. Проверила установку: curl --version и вышла из контейнера: exit
 
