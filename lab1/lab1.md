@@ -12,7 +12,7 @@
 
 ![alt text](hello-world.png)
 
-1.4. Изучить базовые команды: docker images, docker ps, docker ps -a
+1.4. Изучила базовые команды: docker images, docker ps, docker ps -a
 
 ![alt text](команды.png)
 
