@@ -72,11 +72,16 @@
 
 5.1. Создала том: docker volume create my-volume
 
+![alt text](9.png)
 
 5.2. Запустить контейнер с томом: docker run -d -v my-volume:/data --name volume-test ubuntu
 
+![alt text](10.png)
 
 5.3. Подключиться к контейнеру: docker exec -it volume-test bash и создала файл в томе: echo "Hello from volume" > /data/test.txt
 
+![alt text](11.png)
 
-5.4. Удалилаа контейнер и создать новый с тем же томом
+5.4. Удалилаа контейнер и создала новый с тем же томом
+
+![alt text](12.png)
