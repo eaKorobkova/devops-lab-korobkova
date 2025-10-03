@@ -54,15 +54,15 @@
 
 4.1. Посмотрела запущенные контейнеры: docker ps и все контейнеры: docker ps -a
 
-![alt text](docker_5.png)
+![alt text](5.png)
 
 4.2. Остановила контейнер: docker stop web-server и запустила остановленный контейнер: docker start web-server
 
-![alt text](docker_6.png)
+![alt text](6.png)
 
 4.3. Удалила контейнер: docker rm web-server
 
-![alt text](docker_7.png)
+![alt text](7.png)
 
 4.4. Удалила образ: docker rmi nginx:alpine
 
