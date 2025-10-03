@@ -6,7 +6,7 @@
    
 1.2. Проверила установку командой docker --version
 
-![alt text](version.png)
+![alt text](screenshots/version.png)
 
 1.3. Запустила тестовый контейнер: docker run hello-world
 
