@@ -98,8 +98,8 @@ Date of finished: 03.10.2025
 
 5.3. Подключиться к контейнеру: docker exec -it volume-test bash и создала файл в томе: echo "Hello from volume" > /data/test.txt
 
-![alt text](11.png)
+![alt text](screenshots/11.png)
 
 5.4. Удалилаа контейнер и создала новый с тем же томом
 
-![alt text](12.png)
+![alt text](screenshots/12.png)
