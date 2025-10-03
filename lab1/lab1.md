@@ -70,19 +70,13 @@
 
 **5. Работа с томами (volumes)**
 
-Создать том: docker volume create my-volume
+5.1. Создала том: docker volume create my-volume
 
 
-Запустить контейнер с томом: docker run -d -v my-volume:/data --name volume-test ubuntu
+5.2. Запустить контейнер с томом: docker run -d -v my-volume:/data --name volume-test ubuntu
 
 
-Подключиться к контейнеру: docker exec -it volume-test bash
+5.3. Подключиться к контейнеру: docker exec -it volume-test bash и создала файл в томе: echo "Hello from volume" > /data/test.txt
 
 
-Создать файл в томе: echo "Hello from volume" > /data/test.txt
-
-
-Удалить контейнер и создать новый с тем же томом
-
-
-Проверить, что файл сохранился
+5.4. Удалилаа контейнер и создать новый с тем же томом
