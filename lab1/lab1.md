@@ -66,13 +66,23 @@
 
 4.4. Удалила образ: docker rmi nginx:alpine
 
+![alt text](8.png)
 
-
-Работа с томами (volumes):
+**5. Работа с томами (volumes)**
 
 Создать том: docker volume create my-volume
+
+
 Запустить контейнер с томом: docker run -d -v my-volume:/data --name volume-test ubuntu
+
+
 Подключиться к контейнеру: docker exec -it volume-test bash
+
+
 Создать файл в томе: echo "Hello from volume" > /data/test.txt
+
+
 Удалить контейнер и создать новый с тем же томом
+
+
 Проверить, что файл сохранился
