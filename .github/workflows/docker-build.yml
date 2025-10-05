@@ -3,7 +3,6 @@ name: lab2 Image
 on:
   push:
     branches:
-      - main
       - develop
 
 jobs:
