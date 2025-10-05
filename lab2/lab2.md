@@ -5,7 +5,8 @@
 Создала аккаунт на Docker Hub и создать новый репозиторий ict на Docker Hub
 
 
-Настройка GitHub Actions:
+** 2. Настройка GitHub Actions**
+
 
 Создать папку .github/workflows/ в корне проекта
 Создать файл docker-build.yml с пайплайном, который должен:
