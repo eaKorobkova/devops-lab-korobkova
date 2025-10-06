@@ -24,21 +24,26 @@ Date of finished: 06.10.2025
 **1. Подготовка проекта**
 
 Создала аккаунт на Docker Hub и создать новый репозиторий ict на Docker Hub
+
 ![alt text](screenshots/1.png)
 
-** 2. Настройка GitHub Actions**
-Создать папку .github/workflows/ в корне проекта
+**2. Настройка GitHub Actions**
+
+Создала папку .github/workflows/ в корне проекта
+
 ![alt text](screenshots/2.png)
-Создать файл docker-build.yml с пайплайном:
+
+Создала файл docker-build.yml с пайплайном:
+
 ![alt text](screenshots/3.png)
 
-** 3. Настройка секретов**
+**3. Настройка секретов**
 
 В настройках GitHub репозитория добавила секреты:
 
 ![alt text](screenshots/4.png)
 
-** 4. Тестирование пайплайна**
+**4. Тестирование пайплайна**
 
 Проверила выполнение пайплайна в разделе Actions
 
