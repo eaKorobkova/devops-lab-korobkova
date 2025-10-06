@@ -3,6 +3,7 @@ name: Build and Push Docker Image
 on:
   push:
     branches:
+      - main
       - develop
 
 jobs:
@@ -27,8 +28,7 @@ jobs:
           context: ./lab2
           push: true
           tags: |
-            ekorobkova/devops-lab-korobkova_lab_2:latest
-            ekorobkova/devops-lab-korobkova_lab_2:${{ github.ref_name }}
+            ${{ secrets.DOCKER_USERNAME }}/devops-lab-korobkova_lab_2:${{ github.ref_name }}
 
       - name: Deploy (production)
         if: github.ref == 'refs/heads/main'
