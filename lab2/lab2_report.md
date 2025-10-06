@@ -24,28 +24,26 @@ Date of finished: 06.10.2025
 **1. Подготовка проекта**
 
 Создала аккаунт на Docker Hub и создать новый репозиторий ict на Docker Hub
-
+![alt text](screenshots/1.png)
 
 ** 2. Настройка GitHub Actions**
-
-
 Создать папку .github/workflows/ в корне проекта
-Создать файл docker-build.yml с пайплайном, который должен:
-Запускаться при пуше в main ветку
-Использовать Ubuntu как runner
-Выполнять checkout кода
-Настраивать Docker Buildx
-Логиниться в Docker Hub используя секреты
-Собирать и пушить образ с тегом username/my-flask-app:latest
-Добавлять шаг деплоя (можно просто echo сообщение)
-Настройка секретов:
+![alt text](screenshots/2.png)
+Создать файл docker-build.yml с пайплайном:
+![alt text](screenshots/3.png)
 
-В настройках GitHub репозитория добавить секреты:
-DOCKER_USERNAME - ваш логин на Docker Hub
-DOCKER_PASSWORD - ваш пароль или токен доступа Docker Hub
-Тестирование пайплайна:
+** 3. Настройка секретов**
 
-Сделать коммит и пуш в main ветку
-Проверить выполнение пайплайна в разделе Actions
-Убедиться, что образ появился в Docker Hub
-Проверить логи выполнения каждого шага
+В настройках GitHub репозитория добавила секреты:
+
+![alt text](screenshots/4.png)
+
+** 4. Тестирование пайплайна**
+
+Проверила выполнение пайплайна в разделе Actions
+
+![alt text](screenshots/5.png)
+
+Убедилась, что образ появился в Docker Hub
+
+![alt text](screenshots/6.png)
