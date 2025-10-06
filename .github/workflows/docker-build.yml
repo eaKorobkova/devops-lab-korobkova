@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - main
-      - develop
+    
 
 jobs:
   build-and-push:
@@ -27,9 +27,8 @@ jobs:
         with:
           context: ./lab2
           push: true
-          tags: |
-            ${{ secrets.DOCKER_USERNAME }}/devops-lab-korobkova_lab_2:${{ github.ref_name }}
-
+          tags: ${{ secrets.DOCKER_USERNAME }}/devops-lab-korobkova_lab_2:latest
+          
       - name: Deploy (production)
         if: github.ref == 'refs/heads/main'
         run: echo "Deploying to production server..."
