@@ -1,3 +1,24 @@
+University: ITMO University
+
+Faculty: FICT
+
+Course: Cloud platforms as the basis of technology entrepreneurship ADD link
+
+Year: 2025/2026
+
+Group: U4225
+
+Author: KOROBKOVA EKATERINA ANDREEVNA
+
+Lab: Lab2
+
+Date of create: 05.09.2025
+
+Date of finished: 06.10.2025
+
+Обычная лабораторная работа
+
+
 Настройка CI/CD пайплайна с GitHub Actions:
 
 **1. Подготовка проекта**
