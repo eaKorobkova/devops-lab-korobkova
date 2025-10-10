@@ -10,7 +10,7 @@ Group: U4225
 
 Author: KOROBKOVA EKATERINA ANDREEVNA
 
-Lab: Lab2
+Lab: Lab3
 
 Date of create: 09.10.2025
 
